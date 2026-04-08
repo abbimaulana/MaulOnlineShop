@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database (exclude from VCS - auto-generated at runtime)
+data/db.json
+data/backups/
+
+# OS & editor artifacts
+.DS_Store
+*.log
+.vscode/

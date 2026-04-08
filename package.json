@@ -1,0 +1,26 @@
+{
+  "name": "maulonlineshop",
+  "version": "1.0.0",
+  "description": "Enterprise PPOB (Payment Point Online Bank) application for Emoney, Pulsa, and Game Top-Up services.",
+  "type": "module",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsx src/app.ts"
+  },
+  "keywords": ["ppob", "payment", "typescript", "lowdb", "enterprise"],
+  "author": "Abbi Maulana Malik",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "lowdb": "2.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/uuid": "^9.0.8",
+    "tsx": "^4.15.7",
+    "typescript": "^5.4.5"
+  }
+}
